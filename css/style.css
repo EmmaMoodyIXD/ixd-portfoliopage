@@ -1,0 +1,160 @@
+/* The contents of this website are ©2021 Emma Moody. Copyright and intellectual property of projects is owned by Emma Moody. */
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(C:\Users\emmam\OneDrive - Ulster University\GitHub\MyPortfolioSite\Inter);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(C:\Users\emmam\OneDrive - Ulster University\GitHub\MyPortfolioSite\Inter);
+  font-weight: bold;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Note-to-self: The CSS for class="space" is currently not being used */
+.space {
+  padding: none;
+  text-align: center;
+  border-radius: 175px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.designlogo {
+  width: 200px;
+  height: 200px;
+}
+
+.Personal_Brand {
+  padding: 100px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.infographic {
+  padding: 100px;
+  text-align: center;
+  width: 80%;
+}
+
+.travel-app {
+  padding: 100px;
+  text-align: center;
+  width: 50%;
+}
+
+.project {
+  padding: 100px;
+  text-align: center;
+  width: 50%;
+}
+
+.introduction {
+  padding: 180px;
+}
+
+.about {
+  padding: 180px;
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.work {
+  padding: 180px;
+  text-align: center;
+}
+
+.contact {
+  padding: 0px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  position: relative;
+  top: 0px;
+}
+
+.links {
+  position: relative;
+  top: 100px;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 21.12px;
+}
+
+.contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+/* Note-to-self: The CSS for class="line" is currently not being used */
+.line {
+  width: 5px;
+  height: 50px;
+  visibility: hidden;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21.12px;
+  font-family: 'Lexend', sans-serif;
+}
+
+#navbar a:hover {
+  background-color: #ffffff;
+  color: #007aff;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.content {
+  padding: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+/* Note-to-self: In the future, I will add my media queries here - to have a responsive website for laptops, ipads, iphones and much more. */
